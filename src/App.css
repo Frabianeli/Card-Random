@@ -7,7 +7,6 @@ body{
 
 .Global{
   height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +24,14 @@ body{
   -webkit-box-shadow: 4px 4px 17px 1px rgba(36,34,34,0.45);
   -moz-box-shadow: 4px 4px 17px 1px rgba(36,34,34,0.45);
 }
+.Container{
+  display: flex;
+  gap: 15px;
+}
+.Container i{
+  margin-top: 10px;
+  font-size: 40px;
+}
 h2{
   text-align: end;
 }
@@ -40,8 +47,11 @@ button{
 }
 i{
   font-size: 20px;
+  color: white;
 }
 p{
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 17px;
   font-weight: 500;
 }

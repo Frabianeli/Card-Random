@@ -3,7 +3,11 @@ import React from 'react'
 const QuoteBox = ({users, colors, change}) => {
   return (
     <div className='QuoteBox' style={{color: colors}}>
+        <div className='Container'>
+        <i class="fa-solid fa-bookmark" style={{color: colors}}></i>
         <p>{users.quote}</p>
+        </div>
+        
         <h2>{users.author}</h2>
         
         <div className='ContainerButton'>
